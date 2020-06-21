@@ -7,7 +7,6 @@ ST4011 – CA2 – Website Planning & Webpage Creation
 
 Submitted to: Mr. Vincent Goh
 Prepared by: Kristine Carla Gualvez Amores
-Student Number: P7358724
 
 
 Good day!
