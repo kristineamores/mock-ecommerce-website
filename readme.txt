@@ -4,8 +4,6 @@ SPECIALIST DIPLOMA IN WEB DEVELOPMENT TECHNOLOGY
 DIPLOMA (CONVERSION) IN WEB AND PROGRAMMING
 
 ST4011 – CA2 – Website Planning & Webpage Creation
-
-Submitted to: Mr. Vincent Goh
 Prepared by: Kristine Carla Gualvez Amores
 
 
