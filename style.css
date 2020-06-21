@@ -1,0 +1,764 @@
+/* CSS Document for Lunar Tech Industries */ 
+@font-face {
+    font-family: Fira Sans;
+    src: url(./Fira_Sans_Font/FiraSans-Regular.ttf);
+}
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 16px;
+    color: #161925;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#page {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* NAVIGATION BAR */
+
+header {
+    position: relative;
+    color: #d8d8d8; 
+}
+
+header a {
+    color: #d8d8d8; 
+    font-size: 1.2em;
+}
+
+header a:hover {
+    color: #ffc107; 
+}
+
+.top-bar {
+    background: #161925;
+    color: #d8d8d8; 
+    font-size: 16px;
+}
+
+#brand-logo {
+    transition: .5s;
+}
+
+button.navbar-toggler {
+    border: #d8d8d8 solid 1px;
+}
+
+button.navbar-toggler:hover {
+    border: #ffc107 solid 1px;
+}
+
+button.navbar-toggler:focus {
+    border: #ffc107 solid 1px;
+}
+
+i.fa-bars {
+    color: #d8d8d8; 
+}
+
+i.fa-bars:hover {
+    color: #ffc107; 
+}
+
+i.fa-bars:focus {
+    color: #ffc107; 
+}
+
+.btn-outline-warning {
+    border-radius: 50%;
+    margin-right: 5px;
+    color: #ffc107;
+    
+}
+
+.dropdown-menu {
+    border: none;
+}
+
+.dropdown-menu a.dropdown-item {
+    color: #d8d8d8;
+}
+
+.dropdown-menu a.dropdown-item:hover {
+    background: #ffc107;
+    color: #161925;
+}
+
+
+/* FOOTER */
+
+footer, footer a {
+    color: #d8d8d8; 
+}
+footer a {
+    font-size: 1em;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: #ffc107; 
+}
+
+i.fa-facebook-f:hover, i.fa-twitter:hover, i.fa-instagram:hover {
+    color:#ffc107;
+}
+
+.footer-copyright {
+    font-size: .9em;
+}
+/* Homepage - Header */
+
+.jumbotron {
+    background-image: url("./images/hero-header1.jpg");
+    height: 650px;
+    margin: 0;
+}
+
+.jumbotron h3 {
+    margin: 150px 80px 0 80px;
+    font-size: 2em;
+    color: #f8f8f8;
+    text-align: right;
+
+}
+
+.jumbotron p {
+    margin-left: 340px;
+    margin-right: 80px;
+    color: #f8f8f8;
+    text-align: right;
+}
+
+/* Homepage - Phones and Cameras */
+
+section.main {
+    margin-top: 0px;
+}
+
+.row {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.col-md-6 {
+    margin: 0;
+    padding: 0;
+}
+section.main aside.main-aside {
+    position: relative;
+    z-index: 10;
+}
+
+section.main aside.main-aside .main-aside2 {
+    position: absolute;
+    z-index: 100;
+    filter: contrast(80%);
+    padding: 0;
+    
+}
+
+section.main aside.main-aside .main-aside2 img:hover {
+    opacity: 0;
+    transition-duration: 1s;
+}
+
+/* Homepage - Featured Products */
+
+section.featured {
+    padding-top: 0px;
+    padding-bottom: 50px;
+}
+
+section.featured > h4 {
+    margin: 20px 0;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+
+.carousel ol.carousel-indicators {
+    height: 1px;
+}
+
+.carousel ol.carousel-indicators li {
+    background: #ffc107;
+    margin-top: 30px;
+}
+
+.product-hover:hover {
+    outline: #ffc107 solid 4px;
+    outline-offset: 4px;
+    cursor: pointer;
+}
+
+ul.rating {
+    list-style: none;
+    padding: 0 0 10px 0;
+    margin: 0;
+    text-align: center;
+}
+
+ul.rating li {
+    display: inline;
+}
+
+i.fa-star {
+    color: #ffc107;
+}
+
+/* Homepage - New Arrivals */
+
+section.arrival {
+    padding-top: 0px;
+    padding-bottom: 50px;
+}
+
+section.arrival > h4 {
+    margin: 20px 0;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+
+h4.card-title {
+    font-size: 1.25em;
+}
+
+p.card-text {
+    font-size: 1.2em;
+}
+
+.card-img-top {
+    box-shadow: #d8d8d8 2px 2px 10px;
+}
+
+/* Homepage - Brands Section */
+
+section.brands {
+    padding: 0;
+    margin: 0;
+    position: relative;
+
+}
+
+section.brands .brand-logo-bw {
+    background: #8ea8c3;
+
+}
+
+.brand-img {
+    width: 150px;
+}
+
+.brand-img2 {
+    width: 150px;
+}
+
+.brand-img2:hover {
+    opacity: 0;
+    transition-duration: .5s;
+}
+
+section.brands .brand-logo-colored {
+    background: none;
+    position: absolute;
+    z-index: 130;
+    top: 0;
+}
+
+/* Smartphones Page - Product Listing */
+
+section.product-list{
+    padding-top: 0px;
+    padding-bottom: 50px;
+}
+
+section.product-list > h4 {
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+.product-item {
+    margin: 30px 0;
+}
+
+/* Smartphones Page - Brands Nav Bar */
+ul.brand-nav-bar {
+    background: #23395b;
+}
+ul.brand-nav-bar li a.nav-link {
+    color: #8ea8c3;
+    font-size: 1.2em;
+}
+
+ul.brand-nav-bar li a.nav-link:hover {
+    background: #8ea8c3;
+    color: #23395b;
+}
+
+.product-select {
+    text-decoration: none;
+}
+
+
+/* Product Page - Highlights */
+
+.product-image {
+    border: #d8d8d8 solid 2px;
+    border-radius: 3%;
+    width: 100%;
+}
+
+.image-control {
+    color: #161925;
+    height: auto;
+    padding: 20px;
+    font-size: 40px;
+}
+
+h3.product-name {
+    margin-top: 20px;
+}
+
+ul.rating-product-page {
+    text-align: left;
+}
+a.review-link {
+    text-decoration: none;
+}
+a p.review  {
+    color: #161925;
+    margin-left: 5px;
+    display: inline;
+}
+
+a p.review:hover  {
+    color: #ffc107;
+}
+
+form p {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 0;
+    margin-top: -20px;
+}
+
+form label.color-select {
+    border-radius: 50%;
+    cursor: pointer;
+    display: inline;
+}
+
+form label.color-select input {
+    display:none;
+}
+
+form label.color-select .color-btn {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #eee;
+    border-radius: 50%;
+    border: #d8d8d8 solid 1px;
+    margin: 10px 15px 10px 0;
+}
+
+form label.color-select .gold {
+    background-color: #F6E0C9;
+}
+
+form label.color-select .gray {
+    background-color: #7d7d7d;
+}
+
+form label.color-select .silver {
+    background-color: #E4E4E2;
+}
+
+form label.color-select .color-btn:hover {
+    border: #ffc107 solid 2px;
+}
+form label.color-select input:checked + span.color-btn {
+    border: #ffc107 solid 2px;
+}
+
+p.product-highlights {
+    font-size: 1.1em;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+/* Product Page - KEY FEATURES */
+
+p.features {
+    font-size: 1.1em;
+    text-align: justify;
+    margin-top: auto;
+}
+
+ul.key-features {
+    font-size: 1.1em;
+    text-align: justify;
+    margin-top: auto;
+    line-height: 2em;
+}
+
+table.dimensions {
+    margin-top: auto;
+}
+
+tr.specs {
+    font-size: 1.1em;
+    margin-top: auto;
+    line-height: 2em;
+}
+
+td.row-detail, td.colon {padding-left: 20px;}
+
+.review {
+    margin-top: 30px;
+}
+
+ul.rating-comment {text-align:left;}
+
+i.comment { font-size: 10px;}
+
+p.comment-subj {
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+p.sender {
+    color: #7d7d7d;
+    font-size: 1em;
+    margin-top: 0px;
+}
+
+p.feedback {
+    font-size: 1em;
+    margin-top: 5px;
+    text-align: justify;
+    margin-right: 20px;
+}
+
+
+/* Contact Page */
+
+article.online-form > h4 {
+    margin: 20px 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+article.online-form p {
+    font-size: 1.1em;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.contact-icon {
+    color: #d8d8d8;
+    font-size: 30px;
+}
+
+.row-for-form {
+    margin-top: 15px;
+}
+
+input.format-input {
+    border: none;
+    border-bottom: #d8d8d8 solid 1px;
+    border-radius: 0;
+    color: #A9A9A9;
+}
+
+
+select.format-input {
+    border: none;
+    border-bottom: #d8d8d8 solid 1px;
+    border-radius: 0;
+    color: #A9A9A9;
+}
+
+textarea.format-input {
+    border: none;
+    border-bottom: #d8d8d8 solid 1px;
+    border-radius: 0;
+    color: #A9A9A9;
+    resize: none;
+    height: 150px;
+}
+
+button.submit-btn {
+    margin-top: 30px;
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+article.contact-details {
+    color: #161925;
+    padding-bottom: 40px;
+}
+
+table.table {
+    color: #161925;
+    margin-top: 20px;
+}
+
+td.particulars {
+    background: none;
+    border: none;
+    color:#161925;
+    font-size:1.1em;
+}
+
+td.particulars a {
+    color:#161925;
+}
+
+td.particulars a:hover {
+    text-decoration: none;
+    color: #ffc107;
+}
+
+th.particulars {
+    background: none;
+    border: none;
+}
+
+i.contact-symbol {
+    color: #ffc107;
+    font-size: 20px;
+}
+
+.mapouter {
+    width: 100%;
+    margin: auto;
+    text-align:center;
+}
+
+.gmap_canvas {
+    width: 100%;
+    margin: auto;
+    text-align:center;
+}
+
+/* FAQ Page */
+
+.faq-start {
+    margin-top: 40px;
+}
+
+.card-header {
+    padding: 0;
+    background: none;
+    border: none;
+    
+}
+
+h5.faq-title {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.faq-set { border: none; margin-bottom: 10px;}
+
+
+button.faq-header {
+    width: 100%;
+    font-size: 1em;
+    text-align: left;
+    padding: 10px;
+    border: #d8d8d8 solid 1px;
+    padding-left: 20px;
+    background: #d8d8d8;
+}
+
+button.faq-header:hover {
+    color:#161925;
+    background: #ffc107;
+}
+
+h5.head-faq { border: #d8d8d8 solid 1px; padding: 0; margin: 0;}
+
+
+.answers {
+    background: none;
+    border: #d8d8d8 solid 1px;
+    font-size: 1.1em;
+    padding-left: 40px;
+}
+
+
+a.mail { text-decoration: none; color: #161925;}
+a.mail:hover {color: #ffc107;}
+
+/* About Us */
+
+
+article.about-page > h4 {
+    margin: 20px 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+p.about {
+    font-size: 1.4em;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+section.mission {
+    background-image: url(./images/hero-header2.jpg);
+    width: 100%;
+    height: auto;
+    
+}
+
+article.mission-section > h4 {
+    margin: 40px 0 20px 0;
+    font-weight: bold;
+    text-align: center;
+    color: #f8f8f8;
+}
+
+p.mission-p {
+    font-size: 1.4em;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: #f8f8f8;
+    margin-bottom: 40px;
+    margin-top: 40px;
+
+}
+
+
+/* Cart Page */
+
+article.cart {
+    padding-bottom:300px;
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1080px) {
+    form.form-inline input.form-control {
+        width: 160px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    ul.rating-product-page {
+        text-align: center;
+    }
+
+    h4.card-title {font-size: 1.2em;}
+    
+
+}
+
+@media screen and (max-width: 768px) {
+    .jumbotron h3 {
+        margin: 150px 20px 0 20px;
+        font-size: 2em;
+        text-align: center;
+    }
+    
+    .jumbotron p {
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: center;
+    }
+
+    a p.review  {
+        font-size: 1em;
+    }
+
+    h3.product-name {
+        font-size: 1.4em;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    h4.price {
+        font-size: 1.3em;
+        text-align: center;
+    }
+
+    
+    p.product-highlights {
+        font-size: 1em;
+        text-align: justify;
+        margin-top: 20px;
+    }
+
+    table.dimensions {
+        margin: auto;
+    }
+
+    p.features, ul.key-features, tr.specs { font-size: 1em; }
+
+    .review {
+        margin-top: 20px;
+    }
+
+    section.product-list > h4, section.arrival > h4, section.featured > h4, article.online-form > h4, article.about-page > h4, article.mission-section > h4 {
+        font-size: 1.3em;
+    }
+
+    article.online-form { font-size: 1em;}
+
+    p.comment-subj, p.sender, p.feedback {font-size: .9em; text-align: center;    }
+    p.feedback {margin-right: auto;}
+
+    ul.rating-comment {text-align: center;}
+
+    article.contact-details {
+        margin-top: 40px;
+    }
+
+    h5.head-faq {font-size: 1em; }
+    button.faq-header {font-size: 1em;   }
+    .answers {  font-size: 1em  }
+
+    h5.faq-title {font-size: 1.1em;}
+
+    p.about, p.mission-p {font-size: 1.2em;}
+  }
+
+
+@media screen and (max-width: 600px) {
+
+    .jumbotron h3 {
+        margin: 150px 20px 0 20px;
+        font-size: 2em;
+        text-align: center;
+    }
+    
+    .jumbotron p {
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: center;
+    }
+    
+    section.main aside.main-aside .main-aside2 {
+        display: none;
+    }
+
+    td.particulars, article.online-form p {font-size: 1em;}
+
+
+
+}
+
+
